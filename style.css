@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+    color:#fff ;
+}html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color:#000;
+}
+#nav{
+    height: 140px;
+    width: 100%;
+    padding: 0 50px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav-prt2{
+    display: flex;
+    /* background-color: blue; */
+    width: 60%;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav h1{
+    font-size: 20px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+}
+#nav i{
+    margin-right: 5px;
+    font-size: 20px;
+}
+#nav h5{
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+#nav img{
+    height: 55px;
+}
+#line{
+    width: 50px;
+    height: 2px;
+    background-color: red;
+}
+#content{
+    height: calc(100% - 140px);
+    width: 100%;
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+#left{
+    width: 36%;
+    height: 100%;
+    /* background-color: red; */
+    padding: 70px 80px;
+}
+#right{
+    width: 36%;
+    height: 100%;
+    padding: 230px 110px;
+    /* background-color: red; */
+}
+#center{
+    width: 28%;
+    height: 100%;
+    /* background-color:red; */
+    padding-top: 60px;
+}
+#left h1{
+    font-size: 61px;
+    line-height: 58px;
+    font-weight:750;
+    margin-bottom: 30px;
+}
+#left h1 span{
+    color: red;
+    font-weight: 400;
+}
+#left p{
+    font-size: 18px;
+    width: 75%;
+    margin-bottom: 30px;
+    line-height: 20px;
+
+}
+#left button{
+    background-color: red;
+    padding: 10px 8px;
+    padding-right:20px;
+    border-radius: 50px;
+    border: none;
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+
+}
+#left i{
+    color:white;
+    font-size: 40px;
+    font-weight: 100;
+
+}
+#center-bg{
+    background-color:blue;
+    width: 100%;
+    height: 90%;
+    border-top-left-radius: 1000px;
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
+    background-image:url(./coca-cola-bg.jpg);
+    background-size: 450%;
+    background-position: 30% 40%;
+    filter: blur(3px);
+
+
+}
+#content>img{
+    height: 100%;
+    position: absolute;
+    left: 49%;
+    z-index: 99;
+    transform: translate(-50%,0);
+}
+#right-elems{
+    /* background-color: red; */
+    width: 350px;
+}
+#elem1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    /* background-color: blue; */
+    border-bottom: 1px solid#fff;
+    border-bottom: 1px solid #fff;
+    opacity: 0.6;
+}
+#elem1 h1{
+    font-size: 25px;
+    font-weight: 600;
+
+}
+#elem1 i{
+    font-size: 25px;
+    color: #fff;
+}
+#elem2 h1{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    padding-top: 10px ;
+}
+#elem2 p{
+    font-size: 13px;
+    width: 80%;
+    opacity: 0.6;
+}
+#left nav i{
+    color: red;
+    font-size: 40px;
+    font-weight: 20px;
+    margin:0 250px ;
+
+}
